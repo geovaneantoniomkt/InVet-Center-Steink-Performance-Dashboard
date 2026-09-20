@@ -1,0 +1,46 @@
+{
+  "client": {
+    "name": "InVet Center",
+    "legal_name": "InVet Center Limeira · Hospital Veterinário 24h",
+    "segment": "Hospital veterinário 24h",
+    "market": "Limeira e região (SP)",
+    "agency": "Steink Performance",
+    "logo": "/logo.jpg",
+    "website": ""
+  },
+  "budget": {
+    "meta_monthly": 0,
+    "google_monthly": 1250
+  },
+  "_comentario_display": "revenue=false porque o hospital não vende online: o valor que aparece em 'conversions_value' no Google Ads é o valor atribuído à ação de conversão na conta, não faturamento. Exibir isso como receita produziria um ROAS falso (0,05×). Ligue para true só quando houver valor real de venda chegando na plataforma.",
+  "display": {
+    "revenue": false
+  },
+  "_comentario_metas": "Metas tiradas do histórico da própria conta do Google Ads (jan/2025 a set/2026, 543 dias de série diária, R$ 18.267 investidos e 6.211 contatos). Custo por contato: mediana mensal de R$ 2,82 — melhor mês R$ 2,29, pior R$ 8,25, últimos 90 dias R$ 2,76. Arredondado para R$ 2,80. Verba Google: média de R$ 1.234/mês nos últimos 6 meses fechados. Meta Ads não é trabalhado hoje, por isso verba zero e métricas zeradas; quando entrar, o custo por contato do Meta precisa de meta própria (intenção de busca é mais barata que descoberta) e não deve reaproveitar os R$ 2,80.",
+  "targets": {
+    "cost_per_purchase": 2.8,
+    "cost_per_add_to_cart": 0,
+    "cost_per_conversation": 2.8,
+    "cost_per_profile_visit": 1.5,
+    "google_cost_per_conversion": 2.8,
+    "cpm_topo_max": 10,
+    "ctr_min": 1.0,
+    "frequency_max": 2.5,
+    "min_spend_for_alert": 30
+  },
+  "meta": {
+    "ad_account_id": "",
+    "business_id": "",
+    "page_id": "",
+    "ig_user_id": "",
+    "pixel_id": ""
+  },
+  "instagram": {
+    "username": ""
+  },
+  "google_ads": {
+    "enabled": true,
+    "customer_id": "182-911-9223",
+    "note": "Conta Google Ads da InVet Center: 182-911-9223 (InVet Center Limeira Hospital Veterinário 24h), gerenciada pelo MCC 295-287-1856 da Steink Performance."
+  }
+}
