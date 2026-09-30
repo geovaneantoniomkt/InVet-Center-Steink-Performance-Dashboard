@@ -166,7 +166,8 @@ function loginPage({ error = "", next = "/" } = {}, status = 200) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Acesso restrito · InVet Center</title>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/logo.jpg" type="image/jpeg">
+<link rel="apple-touch-icon" href="/logo.jpg">
 <link rel="stylesheet" href="/login.css">
 </head>
 <body>
