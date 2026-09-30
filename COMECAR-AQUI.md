@@ -29,7 +29,16 @@ modelo em `Nohotel`. O passo a passo genérico, com os erros conhecidos, está e
   (fora do git).
 - **Pacote de deploy** montado em `deploy-netlify/` (15 arquivos, 1,1 MB).
 
-## Falta fazer
+## Publicação automática (Cloudflare Pages)
+
+O workflow publica em **https://invet-center-dashboard.pages.dev** 3x por dia (6h, 12h e 18h).
+Precisa de: projeto `invet-center-dashboard` no Cloudflare Pages com `DASHBOARD_PASSWORD` e
+`SESSION_SECRET` (Settings → Variables and Secrets), e no GitHub os secrets `CLOUDFLARE_API_TOKEN`,
+`CLOUDFLARE_ACCOUNT_ID` e `GOOGLE_ADS_REFRESH_TOKEN`. Sem dados do Google a publicação é cancelada
+(o site fica com a última versão boa). O site do Netlify publicado à mão em 20/09 não é atualizado
+enquanto `NETLIFY_AUTH_TOKEN`/`NETLIFY_SITE_ID` não existirem.
+
+## Falta fazer (roteiro original, via Netlify)
 
 1. **Trocar a logo.** `public/logo.jpg` ainda é a do Nohotel — aparece no menu lateral.
    Substitua por uma logo quadrada da InVet Center, 150px ou mais, e rode `npm run bundle` de novo.
